@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ca939007-c635-459f-a155-e08c0357d4a1</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>PythonApplication1Test.py</StartupFile>
+    <ProjectGuid>39207432-7b12-4371-972d-6ef8c192a25a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Madlibs_Generator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Madlibs Generator</Name>
-    <RootNamespace>PythonApplication1Test</RootNamespace>
+    <RootNamespace>Madlibs Generator</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1Test.py" />
+    <Compile Include="Madlibs_Generator.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

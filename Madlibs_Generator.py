@@ -1,3 +1,4 @@
+
 """
 1. Describe project 2.Use open to open .txt file and store it as a string variable 3.create set, starting index, start char, end char
 4. for loop to iterate through .txt file, use enumerate to find char and index 5. create dictionary to story key:value pairs for
@@ -15,7 +16,7 @@ the <object> in a <place2>. The <animal> was so <emotion2> and thanked the <char
 
 #1. Description: Madlibs generator takes a .txt file and replaces specific keywords to any keyword of the users input
 
-#2. Openu sing open and store it in string variable
+#2. Open using open and store it in string variable
 with open("story.txt") as f:
     story = f.read()
     
